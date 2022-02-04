@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Comforter&family=Indie+Flower&display=swap');
+body{
+    background-color:rgb(88, 88, 86);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Baloo 2', cursive;
+    font-family: 'Comforter', cursive;
+    font-family: 'Indie Flower', cursive;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color:black;
+    height: 81px;
+    color:greenyellow;
+    align-items: flex-end;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 23px;
+}
+.suv:hover{
+    background-color:plum;
+}
+
+.brand{
+    width: 50px;
+    height: 50px;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color:lightgreen;
+    width: 165px;
+    color: black;
+    padding: 8px;
+    border-radius: 16px; 
+    margin: 4px;  
+
+}
+.songitem:hover{
+    background-color:plum;
+}
+.songlistplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.songitem img{
+    margin: 3px;
+    border-radius: 25px;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color:black;
+    color: aliceblue;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    cursor: pointer;
+}
+#progressbar{
+    width: 50vw;
+    cursor: pointer;
+    
+}
+/* .songinfo img{
+    opacity: 0;
+    transition: opacity is ease-in-out;
+} */
